@@ -2,6 +2,16 @@
 @import '../scss/variables';
 
 // 1)
+
+$new-font-sizes: (
+  7: $new-font-size * 1,
+  8: $new-font-size * 0.75,
+  9: $new-font-size * 0.5,
+  10: $new-font-size * 0.25,
+);
+
+$font-sizes: map-merge($font-sizes, $new-font-sizes);
+
 // 2)
 $new-border-widths: (
   6: 6px,
@@ -11,6 +21,8 @@ $new-border-widths: (
   10: 10px,
 );
 
-$border-widths: map-merger($border-widths, $new-border-widths);
+$border-widths: map-merge($border-widths, $new-border-widths);
+
+// 3)
 
 @import '../scss/bootstrap.scss';
