@@ -1,0 +1,17 @@
+@import '../bootstrap-5.3.7/scss/functions';
+@import '../bootstrap-5.3.7/scss/variables';
+
+// 1)
+
+// 2)
+
+$new-border-widths: (
+  6: 6px,
+  7: 7px,
+  8: 8px,
+  9: 9px,
+  10: 10px,
+);
+
+$border-widths: map-merger($border-widths, $new-border-widths);
+@import './scss/bootstrap.scss';
