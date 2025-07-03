@@ -1,5 +1,5 @@
-@import '../bootstrap-5.3.7/scss/functions';
-@import '../bootstrap-5.3.7/scss/variables';
+@import '../scss/functions';
+@import '../scss/variables';
 
 // 1)
 
@@ -14,4 +14,4 @@ $new-border-widths: (
 );
 
 $border-widths: map-merger($border-widths, $new-border-widths);
-@import './scss/bootstrap.scss';
+@import '../scss/bootstrap.css';
