@@ -1,11 +1,8 @@
-@import '../scss/bootstrap.scss';
 @import '../scss/functions';
 @import '../scss/variables';
 
 // 1)
-
 // 2)
-
 $new-border-widths: (
   6: 6px,
   7: 7px,
@@ -15,4 +12,5 @@ $new-border-widths: (
 );
 
 $border-widths: map-merger($border-widths, $new-border-widths);
-@import '../scss/bootstrap.css';
+
+@import '../scss/bootstrap.scss';
